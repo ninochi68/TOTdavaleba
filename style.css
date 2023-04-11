@@ -1,0 +1,36 @@
+section{
+  body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: rgba(17, 17, 196, 0.87);
+  }
+  p {
+    color: red;
+  }
+      
+        .image {
+            margin: 100px 100px 100px 100px;
+            padding: 20px;
+            width: 100%
+            height: 100%
+        }
+      
+      
+      @keyframes glowing {
+        0%{
+          box-shadow:
+          3px 2px 14px rgba(152, 60, 228, 0.486)
+          3px 2px 14px rgba(183, 167, 196, 0.486)
+          3px 2px 14px rgba(212, 45, 184, 0.486)
+          3px 2px 14px rgba(56, 3, 99, 0.418)
+        } 
+        {
+          box-shadow:
+          3px 2px 14px rgba(152, 60, 228, 0.486)
+          3px 2px 14px rgba(183, 107, 106, 0.40)
+          3px 2px 14px rgba(212, 45, 184, 0.486)
+          3px 2px 14px rgba(56, 3, 100, 0.400)
+        }           
+
+      }
